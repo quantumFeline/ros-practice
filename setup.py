@@ -27,6 +27,7 @@ setup(
             "test_node = my_robot_controller.node:main",
             "draw_circle_node = my_robot_controller.draw_circle:main",
             "pose_subscriber_node = my_robot_controller.pose_subscriber:main",
+            "turtle_controller_node = my_robot_controller.turtle_controller:main",
         ],
     },
 )
