@@ -11,7 +11,7 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
     ],
-    install_requires=['setuptools'],
+    install_requires=['setuptools', 'pyrealsense2'],
     zip_safe=True,
     maintainer='ery',
     maintainer_email='veronika.netch@gmail.com',
@@ -28,6 +28,7 @@ setup(
             "draw_circle_node = my_robot_controller.draw_circle:main",
             "pose_subscriber_node = my_robot_controller.pose_subscriber:main",
             "turtle_controller_node = my_robot_controller.turtle_controller:main",
+            "camera_subscriber_node = my_robot_controller.camera:main",
         ],
     },
 )
