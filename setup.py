@@ -26,6 +26,7 @@ setup(
         'console_scripts': [
             "test_node = my_robot_controller.node:main",
             "draw_circle_node = my_robot_controller.draw_circle:main",
+            "pose_subscriber_node = my_robot_controller.pose_subscriber:main",
         ],
     },
 )
